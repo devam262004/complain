@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+        android:id="@+id/Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="chat"
+        android:id="@+id/Chat"
+        android:icon="@drawable/baseline_chat_24"/>
+    <item android:title="Complain"
+        android:id="@+id/Complain"
+        android:icon="@drawable/baseline_note_add_24"/>
+    <item android:title="Circular"
+        android:id="@+id/Circular"
+        android:icon="@drawable/baseline_sticky_note_2_24"/>
+
+
+</menu>

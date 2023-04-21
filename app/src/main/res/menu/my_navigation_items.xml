@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat help" />
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/baseline_map_24"
+        android:title="Map" />
+    <item
+        android:id="@+id/circular"
+        android:icon="@drawable/baseline_sticky_note_2_24"
+        android:title="Circular" />
+
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/baseline_login_24"
+                android:title="Login" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Complain">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_complainrequest"
+                android:icon="@drawable/baseline_note_add_24"
+                android:title="Complain Request" />
+            <item
+                android:id="@+id/nav_complainstatus"
+                android:icon="@drawable/baseline_note_24"
+                android:title="Complain Status" />
+            </group>
+        </menu>
+    </item>
+</menu>
